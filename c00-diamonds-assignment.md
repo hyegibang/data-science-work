@@ -64,14 +64,14 @@ for more information.
 library(tidyverse)
 ```
 
-    ## ── Attaching packages ────────────────────────────────────────────────────────────────────── tidyverse 1.3.0 ──
+    ## ── Attaching packages ───────────────────────────────────── tidyverse 1.3.0 ──
 
     ## ✓ ggplot2 3.3.2     ✓ purrr   0.3.4
     ## ✓ tibble  3.0.3     ✓ dplyr   1.0.2
     ## ✓ tidyr   1.1.2     ✓ stringr 1.4.0
     ## ✓ readr   1.3.1     ✓ forcats 0.5.0
 
-    ## ── Conflicts ───────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
+    ## ── Conflicts ──────────────────────────────────────── tidyverse_conflicts() ──
     ## x dplyr::filter() masks stats::filter()
     ## x dplyr::lag()    masks stats::lag()
 
@@ -143,9 +143,10 @@ Adding “color” to the graph, better presents variance in price than the
 previous, all-black plot.
 
 Data-specific observations: \* On top of previous observations in terms
-of price and carat, “Fair” diamonds are generally valued less than
-“Ideal” diamonds \* Carat with smaller value, smaller than 2, tends to
-be more categorized as Preimum and Ideal than carat with bigger value.
+of price and carat, “Fair” cut diamonds are generally valued less than
+“Ideal” cut diamonds \* Carat with smaller value, less than 2, tends
+to be more categorized as “Premium” and “Ideal” cuts than carat with
+bigger value.
 
 # Communication
 
